@@ -4,7 +4,7 @@ package Strategy;
  * private instance variable,public methods methods
  * to be overrrided,
  * in uml diagram, character is in italics, which is true for abstract classes, 
-
+    Test
  */
 //import weapon behavior and all child classes
  import Strategy.WeaponBehavior;
