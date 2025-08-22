@@ -19,7 +19,7 @@ public class King extends Character {
     @Override
     public String toString()
     {
-       return "ascii art";
+       return "_|/^^^\\_";
     }
 
     
