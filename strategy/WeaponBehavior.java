@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 /*Abstract class from which the different weapon behavior 
 classes are derived and abstract character class extends
@@ -17,11 +17,6 @@ public abstract class WeaponBehavior {
     //the speed at which the weapons move(?)
     //add value to sleep method parameter for miliiseconds
 
-     
-    public WeaponBehavior(int speed)
-    {
-        this.speed=speed;
-    }
     
     
     public abstract void attack();//skeleton method to be implemented in base

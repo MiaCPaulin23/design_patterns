@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 /**Base class from which king, knight and troll classes
  * are derived. Abstract skeleton class with a protected instance variable, a
  * private instance variable,public methods methods
@@ -6,13 +6,6 @@ package Strategy;
  * in uml diagram, character is in italics, which is true for abstract classes, 
     Test
  */
-//import weapon behavior and all child classes
- import Strategy.WeaponBehavior;
- import Strategy.WeaponBow;
- import Strategy.WeaponKnife;
- import Strategy.WeaponStars;
- import Strategy.Weapon_None;
- 
 
 
  public abstract class Character {
@@ -29,32 +22,19 @@ package Strategy;
     
     public void attack()
     {
-         weaponbehavior.attack();
+         weaponBehavior.attack();
         /**
          * put attack implementation here depending on interface;
          * could do implementation depending on child classes
          */
     }
 
-   
-   
-   
-    public void setWeaponBehavior(WeaponBehavior weaponbehavior)
+    public void setWeaponBehavior(WeaponBehavior weaponBehavior)
     {
-       
+       this.weaponBehavior = weaponBehavior;
         //grabs weapon behavior instance from main and sets to attack methods
         //imported into class
-
-                        
-        }
     }
 
-    public abstract String toString()
-    {
-        /**Should be automatically imported into every class (?) so
-         * maybe only needs to be implemented in child classes
-         * but make abstract and have own implementation in each class
-         * because of instructions
-         */
-    }
+    public abstract String toString();
 }

@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 /*
  * child class of Character class with a single argument

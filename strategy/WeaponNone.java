@@ -1,14 +1,8 @@
-package Strategy;
+package strategy;
 
 // class with attack method that is used in setWeapon Behavior
 //when there are no weapons
-public class Weapon_None extends WeaponBehavior {
-
-    public Weapon_None(int speed)
-    {
-        super(speed);
-        this.speed=speed;
-    }
+public class WeaponNone extends WeaponBehavior {
 
     public void attack()
     {

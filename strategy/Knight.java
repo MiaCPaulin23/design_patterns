@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 /*Child class of Character class with a single
  * argument constructor and a toString Method
