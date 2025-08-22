@@ -11,7 +11,7 @@ public class WeaponBow extends WeaponBehavior{
      */
     public void attack()
     {   
-        
+        System.out.println(")");
         for(int i=0; i<99; i++)
         {
             System.out.println("-->");

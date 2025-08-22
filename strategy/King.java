@@ -19,7 +19,7 @@ public class King extends Character {
     @Override
     public String toString()
     {
-       return "_|/^^^\\_";
+       return "__|/^^^\\__";
     }
 
     
