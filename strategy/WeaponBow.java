@@ -21,7 +21,7 @@ public class WeaponBow extends WeaponBehavior{
                     
                     
                 }
-                System.out.print( "\t ");
+                System.out.print("\t");
             }
                     
                 
