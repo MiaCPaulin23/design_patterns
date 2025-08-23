@@ -7,12 +7,11 @@ public class WeaponStars extends WeaponBehavior{
     public void attack()
     {
     
-        for(int i=0; i<99; i++)
+        for(int i=0; i<20; i++)
         {
-            System.out.println("*/t");
-             
-
-        }
+           System.out.print("*");
+           
+             }
 
     }
     
