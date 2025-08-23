@@ -8,14 +8,15 @@ package strategy;
  * has all methods from base class
  */
 public class King extends Character {
-    //saying base class is final, won't let me extend it
     
     
+    //constructor
     public King(String name)
     {
-        super(name);//not recognizing instance variable from base class
+        super(name);
     }
     
+    //prints character
     @Override
     public String toString()
     {

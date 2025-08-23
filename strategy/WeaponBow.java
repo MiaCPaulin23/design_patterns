@@ -6,22 +6,25 @@ package strategy;
  */
 public class WeaponBow extends WeaponBehavior{
    
-    /**
-     * Will move a ascii bow across the screen slowely
-     */
+    //Will move a string bow across the screen
+    //first print the bow, makes the thread sleep
+    //clears the string
+    //then prints spaces depending on iterations
     public void attack()
     {   
         System.out.print(")-->");
-             for(int i=0; i<20; i++){
-                 for(int j=0; j<1; j++)
-                {
-                    System.out.print( "-->" );
+             for(int i=0; i<100; i++){
+                System.out.print("-->" );
                     Resources.sleep(speed);
-                    Resources.clear();
+                    Resources.clear(); 
+                for(int j=0; j<i; j++)
+                {
+                    System.out.print(" ");
+                    
                     
                     
                 }
-                System.out.print("\t");
+                
             }
                     
                 

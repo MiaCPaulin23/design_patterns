@@ -20,21 +20,23 @@ package strategy;
         this.name=name;
     }
     
+    /**
+     * Attack method. mplementation here depending on class;
+     */
     public void attack()
     {
          weaponBehavior.attack();
-        /**
-         * put attack implementation here depending on interface;
-         * could do implementation depending on child classes
-         */
+        
     }
 
+    //grabs weapon behavior instance from main and sets to attack methods
+    //imported into class
     public void setWeaponBehavior(WeaponBehavior weaponBehavior)
     {
        this.weaponBehavior = weaponBehavior;
-        //grabs weapon behavior instance from main and sets to attack methods
-        //imported into class
+      
     }
 
+    //Abstract method that prints character depending on class
     public abstract String toString();
 }

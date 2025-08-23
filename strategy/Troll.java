@@ -2,7 +2,8 @@ package strategy;
 
 /*
  * child class of Character class with a single argument
- * constructor and a toString method
+ * constructor and a toString method that print
+ * string representation of Troll
  */
 public class Troll extends Character {
     
@@ -17,8 +18,6 @@ public class Troll extends Character {
     public String toString()
     {
         return "/^\\";
-        /*implement toString method based on what is says in video
-         * 
-         */
+        
     }
 }
