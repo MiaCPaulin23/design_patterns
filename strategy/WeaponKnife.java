@@ -9,12 +9,12 @@ public class WeaponKnife extends WeaponBehavior{
     public void attack()
     {
     
-        for(int i=0; i<99; i++)
+        for(int i=0; i<50; i++)
         {
-            System.out.println("-|----");
+            System.out.println("-|----\t");
             Resources.sleep(speed);
             Resources.clear();
-             System.out.println("\t");
+             
 
         }
 

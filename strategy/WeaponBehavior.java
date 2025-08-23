@@ -11,7 +11,7 @@ of method inside switch/case statement
  */
 public abstract class WeaponBehavior {
 
-    protected int speed;//had to make instance variable protected, even though in 
+    protected int speed=100;//had to make instance variable protected, even though in 
     //uml diagram it was private and couldn't access thwm in child
     //classes
     //the speed at which the weapons move(?)
